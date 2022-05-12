@@ -19,13 +19,13 @@
 .logo i {
   color: #fff;
   margin-top: 5px;
+  font-size: 45px;
 }
-
 .menu-link {
   width: 100%;
   list-style: none;
   background: #ff4a44;
-  height: 45px;
+  height: 75px;
 }
 .menu-link li {
   display: inline-block;
@@ -38,6 +38,9 @@
   text-decoration: none;
   padding: 10px 7px;
   transition: 0.5s;
+  font-size: 32px;
+  margin-left: 40px;
+  top: 10px;
 }
 .menu-link a:hover,
 .logo i:hover {
@@ -59,21 +62,25 @@
 
 /*Main*/
 .main-container {
-  padding: 100px;
+  padding: 200px;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 .main-container h1 {
   text-align: center;
+  font-size: 50px;
 }
 
 .main-container p {
   text-align: justify;
   margin-top: 20px;
+  font-size: 24px;
 }
 
 /*Footer*/
 footer {
   width: 100%;
-  height: 30px;
+  height: 75px;
   background: black;
   position: fixed;
   color: #fff;
@@ -83,4 +90,5 @@ footer {
 footer h4 {
   margin-left: 15px;
   margin-top: 5px;
+  font-size: 32px;
 }
